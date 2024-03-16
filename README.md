@@ -50,7 +50,7 @@ Add the .env file with the following variables:
 ```bash
 NEXTAUTH_URL=http://localhost:3000
 NEXTAUTH_URL_INTERNAL=http://localhost:3000
-NEXTAUTH_SECRET=KqYQwiVIEivUUalc5QmGLohw2mzZdBopF3y7lNgFy2M=
+NEXTAUTH_SECRET=
 ```
 [Database in MongoDB](https://www.mongodb.com/atlas)
 
