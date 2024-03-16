@@ -34,3 +34,34 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## When clone project
+
+First, install next:
+
+```bash
+npm i next
+```
+
+Then run the development server
+
+Add the .env file with the following variables:
+
+```bash
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_URL_INTERNAL=http://localhost:3000
+NEXTAUTH_SECRET=KqYQwiVIEivUUalc5QmGLohw2mzZdBopF3y7lNgFy2M=
+```
+[Database in MongoDB](https://www.mongodb.com/atlas)
+
+```bash
+MONGODB_URI=
+```
+
+Create project and setting
+[OAuth Client IDS:](console.cloud.google.com)
+
+```bash
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+```
